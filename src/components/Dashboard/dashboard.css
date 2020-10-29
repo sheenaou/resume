@@ -1,0 +1,44 @@
+.container {
+    min-width: fit-content;
+    width: fit-content;
+    height: fit-content;
+    padding: 2rem;
+    margin: auto auto
+}
+
+.tile {
+    height: 15rem;
+    width: 15rem;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #563f46;
+    margin: 1rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem #484f4f;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+}
+
+.heading {
+    font-size: 4rem;
+    min-width: 4rem;
+    margin: 0 auto;
+    width: fit-content;
+    font-weight: bold;
+    color: #563f46;
+}
+
+.title {
+    font-size: 3rem;
+    min-width: 3rem;
+    margin: 0 auto;
+    width: fit-content;
+    font-weight: bold;
+    color: #563f46;
+}
